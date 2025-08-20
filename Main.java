@@ -7,7 +7,7 @@ public class Main {
         boolean running = true;
         
         while (running) {
-            menu.display();
+            menu.displayMenu();
             int choice = scanner.nextInt();
             
             switch (choice) {
